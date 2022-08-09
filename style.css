@@ -1,8 +1,0 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: whitesmoke;
-    display: grid;
-    place-items: center;
-    min-height: 100vh;
-}
