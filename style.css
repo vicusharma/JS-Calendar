@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Latin&family=Josefin+Sans&family=Karla:wght@400;700&family=Lexend+Exa:wght@500;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mukta+Vaani:wght@500&family=Open+Sans:wght@300&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Rubik+Moonrocks&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    background: fixed;
+    overflow: hidden;
+}
+.container{
+    position: relative;
+    width: 400px;
+    min-height: 400px;
+    background: rgba(255, 255, 255, 0.281);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(48, 39, 39, 0.144);
+    border-radius: 10px;
+    backdrop-filter: blur;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dycalendar{
+    width: 100%;
+    padding: 20px;
+}
+#dycalendar table{
+    width: 100%;
+    margin-top: 40px;
+    padding: 10px;
+}
+#dycalendar table td:hover{
+    background: black;
+    color: white;
+    border-radius: 2px;
+}
+
